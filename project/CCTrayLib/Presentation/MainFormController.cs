@@ -386,7 +386,7 @@ namespace ThoughtWorks.CruiseControl.CCTrayLib.Presentation
 		{
 			if (project.IsConnected)
 			{
-				string url = project.WebURL;
+				string url = project.ProjectDescription;
 				Process.Start(url);
 			}
 		}
